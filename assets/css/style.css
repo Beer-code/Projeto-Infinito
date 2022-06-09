@@ -14,8 +14,8 @@ body {
 
 .cabecalho {
     grid-area: cabecalho;
-    background-color: #3c8dbc;
-    color: #fff;
+    background-color: #fff;
+    color: #3c8dbc;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,7 @@ body {
 .principal {
     grid-area: principal;
     height: calc(100vh - 180px);
-    background-color: #f0f0f0;
+    background-color: #3c8dbc;
     padding: 20px;
 }
 
@@ -57,4 +57,11 @@ body {
     font-size: 1.0rem;
     padding-right: 10px;
     color: #444;
+}
+
+.download {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: 32%;
 }
